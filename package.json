@@ -1,0 +1,22 @@
+{
+  "name": "hyo-portfolio",
+  "version": "1.0.0",
+  "description": "Glas - Rails on Ruby - Jekyll Theme  Preview: http://www.spaceg.github.io",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyoseon-kim/hyoseon-kim.github.com.git"
+  },
+  "author": "kim.hyoseon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyoseon-kim/hyoseon-kim.github.com/issues"
+  },
+  "homepage": "https://github.com/hyoseon-kim/hyoseon-kim.github.com#readme",
+  "dependencies": {
+    "github-markdown-css": "^4.0.0"
+  }
+}
