@@ -380,7 +380,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 body {
-	background-color: #fff;
 	color: #666;
 	line-height: 1.66667;
 }
@@ -1420,6 +1419,8 @@ pre .storage {
 }
 
 .cover-content {
+	background-color: 
+	#f5d442;
 	display: table-cell;
 	position: relative;
 	text-align: center;
@@ -1510,7 +1511,7 @@ pre .storage {
 
 .page-description {
 	font-size: 18px;
-	font-style: italic;
+	font-style: normal;
 }
 
 .page-header .author-avatar {
