@@ -1,9 +1,3 @@
----
-organiser: "Lucas Gatsas"
-
----
-{% assign organiser = site.data.organisers[page.organiser] %}
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +6,8 @@ organiser: "Lucas Gatsas"
 	<title>Your Blog Name </title>
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="../../assets/css/style-v=cba79c2df0.css" />
-	<link rel="stylesheet" type="text/css" href="../../node_modules/github-markdown-css/github-markdown.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style-v=cba79c2df0.css" />
+	<link rel="stylesheet" type="text/css" href="node_modules/github-markdown-css/github-markdown.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -38,14 +30,13 @@ organiser: "Lucas Gatsas"
 <div id="page" class="site">
 <main class="site-main" role="main">
 	<section class="site-content">
-	
 		<header class="cover page-header-1">
 			<div class="cover-content">
 				<div class="inner">
 					<div class="post-count"></div>
-					<h1 class="page-title">김효선 KIM HYOSEON (Front-end Developer)</h1>
+					<h1 class="page-title">김효선 KIM HYOSEON <br>Front-end Developer</h1>
 					<p>    
-                            <img src="/img/A1307150065585.jpg" alt="hyo" class="author-avatar" />
+                            <img src="img/A1307150065585.jpg" alt="hyo" class="author-avatar" />
                         </p>
 					<!-- <p class="author-links">
 						<span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i></span>
@@ -54,28 +45,110 @@ organiser: "Lucas Gatsas"
 				</div><!-- .inner -->
 			</div><!-- .cover-content -->
 		</header><!-- .cover -->
-		<div class="page-description">
-			<h1>전공</h1>
-			<p>
+		<article class="markdown-body" style="    box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;">
+			<h1>전공  👩🏻‍🎓</h1>
 				<ul>
-					<li> 경희대학교 공과대학 산업경영공학과 학사 </li>
-					<li> 학부 시절 C언어 교양 이수</li>
-					<li> 네이버에서 주최한 소프트 웨어 멤버십 예비과정 3기 멤버로 합격하여 개발자 교육 이수 및 프로젝트 진행 하였습니다. </li>
-					<li> 그 후 하계 네이버 캘린더 인턴 과정 수료 후 네이버로 입사하였습니다.</li>
+					<li><strong>경희대학교 공과대학 산업경영공학과 학사</strong> 및 학과 내 수석 졸업</li>
+					<li>학부 4학년 1학기에 네이버에서 주최한 <code>소프트웨어 멤버십 예비과정</code> 3기 멤버로 합격하여 개발자 교육 이수 및 프로젝트 진행</li>
+					<li>그 후 4학년 2학기에 하계 네이버 캘린더 인턴 과정 수료 후 네이버로 입사</li>
 				</ul>
-			</p>
-			<h1>경력 사항</h1>
-			<p>
-				<img src='https://media-exp3.licdn.com/dms/image/C510BAQFhtx-lqarM1A/company-logo_100_100/0/1557292085699?e=1633564800&v=beta&t=jQNk0oiykZ5ACddAdi7dvbzJPDryyLLZ85G0Of-F3Q0'/>
-				<img src='https://media-exp3.licdn.com/dms/image/C560BAQGAjCDaVA_JBQ/company-logo_100_100/0/1602724266399?e=1633564800&v=beta&t=GfiQ2OOmrJYDv0C4A1q8o4UREizxRayqw5tjpU4bCTI'/>
-			</p>
-			<hr/>
-			<h1>보유 기술</h1>
-			<p></p>
-			<hr/>
+			<h1>자격증</h1>
+			<ul>
+				<li>정보처리기사</li>
+				<li>JLPT(일본어) 3급</li>
+				<li>시그마 6</li>
+				<li>MOS (Microsoft Office Specialist)</li>
+			</ul>
+			<h1>경력 사항 👩‍💻</h1>
+				<h2>
+					2014 ~ 2017 : Naver Calender
+				</h2>
+				<h3>Stack</h3>
+					<ul>
+						<li><code>DB</code>: Cubrid</li>
+						<li><code>BE</code>: Java, Spring Framework, JDBC</li>
+						<li><code>FE</code>: JSP, Jindo JS, BootStrap, Jquery, CSS, Backbone JS</li>
+						<li><code>Build</code>: Grunt build tool, maven</li>
+					</ul>
+				<pre lang="no-highlight"><code>1. 네이버 캘린더 사내 Tool 페이지 개발
+- 공휴일 관리 툴에서 DB CRUD 가능하도록 페이지 개발
+- 기존 페이지들을 bootstrap, spring framework으로 이관
+
+2. 네이버 캘린더/Works 캘린더 UI/UX 개편 참여
+- UI 개편 대응 및 FE 단 기능 개선 참여
+
+3. Works 캘린더 출시 참여
+ - 네이버 캘린더가 Works 로 분사하면서 글로벌 상품으로 대응 (일본어/중국어/영어 다국어 처리 대응)
+ - Works/NCS(사내 캘린더) 조직 캘린더 개발 참여 및 출시 대응 (조직도 개발)
+
+4. Works Calendar Admin 페이지 개발
+- 어드민 프로젝트 구축 및 개발하여 Works 관리자가 캘린더 내 설정 변경 할 수 있도록 함
+- db migration 으로 데이터 오류 보정
+- 어드민 서버 관리자로 물리서버 관리 및 서버 conf, 설정 관리 
+
+5. 사내 제공용 캘린더 Api 개발
+6. 사내 제공용 캘린더 컴포넌트 유지보수 
+7. 캘린더 서스테이닝 및 고객문의 대응
+					</code></pre>
+			<h2>2017 ~ 2019: 지식iN</h2>
+			<h3>Stack</h3>
+			<ul>
+				<li><code>DB</code>: mysql</li>
+				<li><code>BE</code>: Java, Spring Framework, JDBC, PHP</li>
+				<li><code>FE</code>: JSP, Jindo JS, Jquery, CSS</li>
+				<li><code>Build</code>: Gradle</li>
+				<li><code>ETC</code>: docker, lombok</li>
+			</ul>
+			<pre lang="no-highlight"><code>1. Jindo > Jquery 코드 이관 작업
+2. 장학기부 페이지 db 설계/어드민 툴/api/화면 Full Stack 개발
+  - 교육기부 개편 참여
+  - 장학기부 페이지 단독 개발, 기부 나무 페이지 개발 (기부된 액수만큼 나무에 잎이 자라는 UI 컴포넌트 개발)
+3. 네이버 컨텐츠 검색 네임카드 > 지식in 랭킹 api 제공 및 Spring Batch 개발
+
+4. Struts > Spring Framework 코드 이관 참여
+
+5. 지식iN FE 분리 후 담당 부서 이관 프로젝트 리딩
+  - 지식iN의 FE를 분리하여 자회사인 NTS에 이관하였는데 이관 계획 및 프로젝트 리딩하였습니다.
+
+6. 지식iN 질문&답변 엔드 페이지 개편 참여
+  - 답변하기 SmartEditor UI 개편 담당
+			</code></pre>
+			<h2>
+				BE > FE 개발자로 전향
+			</h2>
+			<h2>2019: 사내 지식iN 통계 시스템 개발</h2>
+			<h3>Stack</h3>
+			<ul>
+				<li><code>FE</code>: react js, es6</li>
+				<li><code>Build</code>: webpack</li>
+			</ul>
+			<pre lang="no-highlight"><code>- FE 개발자로 전향 후 첫 프로젝트로 관련 기술 학습 겸 사내 통계 툴을 단독으로 개발
+- api에서 받아온 통계 수치값들을 조합하여 차트 및 테이블로 렌더링</code></pre>
+			<h2>2019 ~ 2020: 네이버 인플루언서</h2>
+			<h3>Stack</h3>
+			<ul>
+				<li><code>FE</code>: node, react js, es6, redux, apollo, graphql</li>
+				<li><code>TEST</code>: puppeteer, jest</li>
+				<li><code>Build</code>: webpack</li>
+				<li><code>ETC</code>: k8s, docker, eslint, prettier</li>
+			</ul>
+			<pre lang="no-highlight"><code></code></pre>
+			<h2>2020 ~ 2021: 네이버 지식iN eXpert FE 개발</h2>
+			<h3>Stack</h3>
+			<ul>
+				<li><code>FE</code>: node, react js, es6, apollo, graphql</li>
+				<li><code>TEST</code>: puppeteer, jest</li>
+				<li><code>Build</code>: webpack</li>
+				<li><code>ETC</code>: k8s, docker, eslint, prettier</li>
+			</ul>
+			<pre lang="no-highlight"><code></code></pre>
 			<h1>토이 프로젝트 / 팀내 공유 기술</h1>
 			<p></p>
-		</div>
+		</article>
 		<div class="inner-wide">
 			<div class="post-grid">
 
@@ -86,7 +159,13 @@ organiser: "Lucas Gatsas"
 
 	</section><!-- .site-content -->
 </main><!-- .site-main -->
-
-
-
-    {% include footer.html %}
+<footer class="site-footer">
+	<div class="site-info inner-wide">
+  
+  
+  
+	<div class="read-more">
+	  <p>contact email<br>hyos810@naver.com
+   </p>   
+	</div>
+  </footer>
